@@ -37,9 +37,19 @@ h3 a:hover, h3 a:active {
 	padding: 10px;
 }
 
+#socials {
+	margin-top: 8px;
+	margin-left: 14px;
+	margin-bottom: 6px;
+}
+
+#socials a img {
+	margin-right: 16px;
+}
+
 #menu {
 	width: 75%;
-	margin-left: 8px;
+	margin-left: 6px;
 }
 
 #menu, #menu a {

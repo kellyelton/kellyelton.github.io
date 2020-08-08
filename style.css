@@ -5,6 +5,16 @@
 	font-family: 'Open Sans', sans-serif;
 }
 
+html{
+	background: #010105;
+}
+
+body {
+	max-width: 800px;
+	background: white;
+	border-right: 3px solid #1d4ab3;
+}
+
 a {
 	transition: color 0.2s ease;
 }
@@ -44,12 +54,14 @@ h3 a:hover, h3 a:active {
 }
 
 #socials a img {
-	margin-right: 16px;
+	margin-right: 8px;
+	width:16px;
 }
 
 #menu {
 	width: 75%;
 	margin-left: 6px;
+	margin-top: 10px;
 }
 
 #menu, #menu a {
@@ -69,4 +81,37 @@ h3 a:hover, h3 a:active {
 
 #content {
 	margin: 10px;
+}
+
+#mybadges {
+	margin: 10px 0 0 0;
+}
+
+.mybadge {
+	display: inline-block;
+	padding: .4em .45em .2em .5em;
+    margin: 2px 2px 2px 0;
+	border-width: 1px;
+	border-color: #AAAAAA;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+.mybadge img {
+	height: 20px;
+}
+
+.mybadge a:any-link{
+	text-decoration: none;
+}
+
+
+.expertlanguagetag {
+	display:inline-block;
+	margin: 2px 2px 2px 10px;
+    font-size: 14px;
+    line-height: 1;
+	white-space: nowrap;
+	text-decoration: none;
+	vertical-align: super;
 }

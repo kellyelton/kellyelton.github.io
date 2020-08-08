@@ -15,6 +15,12 @@ body {
 	border-right: 3px solid #1d4ab3;
 }
 
+@media only screen and (max-width: 800px) {
+  body {
+	  border-right: none;
+  }
+}
+
 a {
 	transition: color 0.2s ease;
 }
@@ -32,6 +38,14 @@ h1 {
 	font-family: 'Baskervville', serif;
 }
 
+@media only screen and (max-width: 375px) {
+  h1 {
+	margin-left: 0px;
+	margin-top: -7px;
+	margin-bottom: 7px;
+  }
+}
+
 h3 a{
 	color: #3771DD;
 	text-decoration: none;
@@ -42,7 +56,7 @@ h3 a:hover, h3 a:active {
 }
 
 #header {
-	background-color: #fcfcfc;
+	background-color: #f9f9fa;
 	border-bottom: 1px solid #dddddd;
 	padding: 10px;
 }
@@ -51,6 +65,15 @@ h3 a:hover, h3 a:active {
 	margin-top: 8px;
 	margin-left: 14px;
 	margin-bottom: 6px;
+	float: right;
+}
+
+@media only screen and (max-width: 375px) {
+  #socials {
+	float: left;
+	margin-left: 12px;
+	margin-top: 12px;
+  }
 }
 
 #socials a img {
@@ -62,6 +85,13 @@ h3 a:hover, h3 a:active {
 	width: 75%;
 	margin-left: 6px;
 	margin-top: 10px;
+}
+
+@media only screen and (max-width: 375px) {
+  #menu {
+	  clear: left;
+	  margin-left: 0px;
+  }
 }
 
 #menu, #menu a {
@@ -95,6 +125,11 @@ h3 a:hover, h3 a:active {
 	border-color: #AAAAAA;
     border-style: solid;
     border-radius: 3px;
+}
+@media only screen and (max-width: 375px) {
+  .mybadge {
+	margin-left: 0px;
+  }
 }
 
 .mybadge img {
